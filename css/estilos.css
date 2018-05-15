@@ -1,0 +1,107 @@
+html {
+  background:#A9CCE3;
+}
+body{
+background:  #D4EFDF;
+margin-left: 50px;
+margin-right: 50px;
+margin-top: auto;
+margin-bottom: auto;
+}
+a{
+  color: #008080;
+  text-decoration:;
+  margin: 150px 150px 150px 150px;
+  font-size: 20px;
+}
+
+h2 {
+  color: black;
+}
+h1{
+  font-size:10 ;
+  color: ;
+}
+
+article{
+  background: #EAFAF1;
+  height: 120;
+  width: 200;
+}
+
+.cajafoto{
+  position:relative;
+  left: 550px ;
+  width: 130px;
+  height: 130px;
+  background: #99A3A4;
+
+}
+.alinefooter{
+  position: relative;
+  left: 400px;
+}
+.Inicio{
+  width: 1249px;
+  height: 130px;
+  background: #A9DFBF;
+}
+.caja1{
+  position: relative;
+  width: 350px;
+  height: 400px;
+  background: #F5EEF8  ;
+  font-size: 20px;
+  left: 40px;
+}
+.caja2{
+  position: relative;
+  width: 350px;
+  height: 400px;
+  background: #F5EEF8  ;
+  font-size: 20px;
+  left: 450px;
+  bottom: 425px;
+}
+.caja3{
+  position: relative;
+  width: 350px;
+  height: 400px;
+  background: #F5EEF8  ;
+  font-size: 20px;
+  left: 859px;
+  bottom: 850px;
+}
+.cajapadre{
+  height: 400px;
+  width: 1249px;
+  background: #E8F6F3;
+}
+.metodologías{
+  width: 1249px;
+  height: 500px;
+  background: ;
+}
+.galeria{
+  height: 250px;
+  width: 1249px;
+  background: #F5EEF8  ;
+}
+.imagen1{
+
+}
+.imagen2{
+  position: relative;
+  left:424px;
+  width: 400px;
+  height: 250px;
+  bottom: 254px;
+}
+.imagen3{
+  position: relative;
+  left: 849px;
+  width: 400px;
+  height: 250px;
+  bottom: 504px;
+
+}
