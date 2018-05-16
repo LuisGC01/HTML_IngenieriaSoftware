@@ -1,23 +1,54 @@
 html {
-  background:#A9CCE3;
+    background: #A9CCE3;
 }
-main{
-    margin: 50px;
+
+body{
+    align-content: center;
+}
+
+main {
+    margin: 5px;
     padding: 50px;
 }
-table{
+
+table {
     align-content: center;
     margin: 10px;
+    border: 2px solid black;
+    border-collapse: collapse;
 }
-img{
+figure img:hover{
+	-webkit-transform:scale(1.55);
+}
+img {
     width: 100px;
 }
 
-tr{
-    margin: 30px;
+tr {
+    margin: 10px;
+    border: 2px solid black;
+
+}
+h2{
+    margin: 5px;
+    font-size: 2em;
 }
 
-td{
-    margin: 30px;
-    padding: 20px;
+
+label{
+    font-family: sans-serif;
+    color: red;
+    font-size: 1.3em;
+}
+
+td {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+}
+a{
+    font-family: sans-serif;
+    color:forestgreen;
+    font-size: 1.3em;
 }
