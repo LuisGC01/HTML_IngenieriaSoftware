@@ -1,9 +1,9 @@
 html {
-  background: #A9CCE3;
+  background: #006064;
 }
 body{
 
-background-color: rgb(42, 217, 212);
+background-color: #80deea;
   margin-left: 50px;
   margin-right: 50px;
   margin-top: auto;
@@ -43,7 +43,7 @@ article{
   left: 400px;
 }
 .Inicio{
-  
+
   width: 1249px;
   height: 130px;
   background-image: url(../images/binario.jpg);
