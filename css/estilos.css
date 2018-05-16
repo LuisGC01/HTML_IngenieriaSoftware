@@ -1,12 +1,13 @@
 html {
-  background:#A9CCE3;
+  background: #A9CCE3;
 }
 body{
-background:  #D4EFDF;
-margin-left: 50px;
-margin-right: 50px;
-margin-top: auto;
-margin-bottom: auto;
+
+background-color: rgb(42, 217, 212);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 a{
   color: #008080;
@@ -42,9 +43,11 @@ article{
   left: 400px;
 }
 .Inicio{
+  
   width: 1249px;
   height: 130px;
-  background: #A9DFBF;
+  background-image: url(../images/binario.jpg);
+  background-repeat: repeat-x;
 }
 .caja1{
   position: relative;
@@ -85,7 +88,7 @@ article{
 .galeria{
   height: 250px;
   width: 1249px;
-  background: #F5EEF8  ;
+  background: #F5EEF8;
 }
 .imagen1{
 
@@ -103,5 +106,7 @@ article{
   width: 400px;
   height: 250px;
   bottom: 504px;
-
+}
+.main{
+  text-align: center;
 }
