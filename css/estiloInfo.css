@@ -2,7 +2,7 @@ html {
     background: #A9CCE3;
 }
 
-body{
+body {
     align-content: center;
 }
 
@@ -15,27 +15,28 @@ table {
     align-content: center;
     margin: 10px;
     border: 2px solid black;
-    border-collapse: collapse;
 }
-figure img:hover{
-	-webkit-transform:scale(1.55);
+
+figure img:hover {
+    -webkit-transform: scale(1.55);
 }
+
 img {
     width: 100px;
 }
 
 tr {
     margin: 10px;
-    border: 2px solid black;
-
+    padding: 10PX;
 }
-h2{
+
+h2 {
     margin: 5px;
     font-size: 2em;
+    text-align: center;
 }
 
-
-label{
+label {
     font-family: sans-serif;
     color: red;
     font-size: 1.3em;
@@ -45,10 +46,10 @@ td {
     margin: 10px;
     padding: 10px;
     text-align: center;
-    border: 2px solid black;
 }
-a{
+
+a {
     font-family: sans-serif;
-    color:forestgreen;
+    color: forestgreen;
     font-size: 1.3em;
 }
