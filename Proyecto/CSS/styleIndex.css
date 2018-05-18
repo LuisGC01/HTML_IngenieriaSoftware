@@ -6,35 +6,42 @@ body{
   background-color: #006064;
 }
 
-header{
-  margin: auto;
-  box-shadow: 5px 5px;
-  padding: 10px;
-  background-image: url(../Recursos/scrumboard.jpg);
-  background-size: 100% auto;
+
+  header{
+
+  background-image: url(../Recursos/log.jpg);
+  width: 100% auto;
+  background-position: center;
+  background-color:#044499;
+  margin-left: 20px;
+  margin-right: 30px;
+  margin-top: 20px;
+  box-sizing: content-box;
+  box-shadow: 2px 2px 2px 2px;
+  border-style:ridge;
+  border-radius: 10px 40px;
+  border-right: 20px;
+  border-left: 20px;
   background-repeat: no-repeat;
-  border-radius: 50px 10px;
-  border-right-color: coral;
-  border-left-color: coral;
+  padding-top: 50px;
+
 
 }
 
 h1{
-  border-left-style: solid;
   border-left-color: coral;
-  border-right-color: coral;
   text-align: center;
   text-shadow: 10px 5px 5px 10px;
   font-size: 50px;
   font: bold 320% Arial, Helvetica, sans-serif;
-  padding-top: 30px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
   text-shadow: 2px 2px rgb(73, 240, 59);
 
 }
-h2{
-  text-align: right;
-  text-align: top;
-}
+
 
 a{
   text-decoration: inherit;
@@ -57,9 +64,11 @@ ul{
   float:none;
   border: 5px solid black;
   cursor: pointer;
+  padding: 20px;
 }
 
 li{
+    border-width: medium;
     list-style: none;
     text-align: center;
     padding-bottom:  910px;
@@ -78,52 +87,56 @@ text-align:left;
 img:hover{
   border-radius: 25px;
   box-shadow: 30px 10px 30px 10px;
-}
-
-
-
-section{
-  text-align:right;
-  float:left;
-  font-style: normal;
 
 }
-small{
+
+
+footer{
+  background-clip: padding-box;
+  background-color: opacity;
+
+  box-shadow: 5px,5px;
+  width: auto;
   text-align: center;
 }
 
-.my_footer{
-  position: absolute;
-  bottom: 1000px;
-  top:1200px;
-  border: solid;
+#piepagina:hover{
+  text-align: center;
+  text-shadow: 1px 1px 1px rgb(144, 152, 150);
+  text-decoration-color: #ffff;
 }
+
+#seccion1{
+  padding-top: 50px;
+}
+#seccion2{
+  padding-top: 60px;
+}
+
+
+.div1{
+  padding-top: 30px;
+}
+
 .div2{
   border: 1px solid black;
 
 }
 
-.p1{
-    border: 1px solid black;
-     padding: 10px;
-     width: 200px;
-     height: 400px;
-     text-align: justify;
-     float: left;
-     font-style: italic;
-
-}
-
-.p2{
+.p1,.p2{
   border: 1px solid black;
-   padding: 10px;
-   width: 200px;
-   height: 400px;
-   text-align: center;
-   float: right;
-   font-style: italic;
+  outline: #4CAF50 solid 2px;
+  outline-color: rgb(33, 232, 26);
+  outline-style: double;
+  margin: auto;
+  padding: 2px;
+  text-align: left;
+  justify-content: center;
+  width: auto;
+
 
 }
+
 
 .slideshow-container{
  max-width: 1000px;
@@ -143,7 +156,7 @@ small{
  margin-top:-22px;
  padding:16px;
  color:white;
- font-weight:bold;
+ font-weight:lighter;
  font-size:18px;
  transition:0.6s ease;
  border-radius:0 3px 3px 0;
@@ -184,9 +197,9 @@ small{
 
 .fade{
  -webkit-animation-name:fade;
- -webkit-animation-duration:1.5s;
+ -webkit-animation-duration:1.0s;
  animation-name:fade;
- animation-duration:1.5s;
+ animation-duration:1.0s;
 }
 
 
