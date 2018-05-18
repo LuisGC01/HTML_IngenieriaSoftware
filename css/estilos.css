@@ -46,7 +46,6 @@ article{
 
 }
 .Inicio{
-
   width: auto;
   height: 130px;
   background-image: url(../images/binario.jpg);
@@ -79,19 +78,19 @@ article{
   bottom: 900px;
 }
 .cajapadre{
-  height: 440px;
+  height: 480px;
   width: auto;
   background: #E8F6F3;
 }
 .metodologías{
   width: auto;
-  height: 530px;
+  height: 535px;
   background: ;
   text-align: ;
 }
 .metodologías1{
   width: auto;
-  height: 280px;
+  height: 276px;
   background: #E8F6F3;
   text-align: ;
 }
@@ -135,7 +134,7 @@ article{
   background: #d75c41;
   width: auto;
   height: 40px;
-  border: 1px solid black;
+  border: 1px solid teal;
   padding-top: 5px;
 }
 header img:hover{
